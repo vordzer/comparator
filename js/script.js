@@ -1,7 +1,7 @@
 
 $(".btn").on('click',function(){
-  var check = $("#checker").value;
-  var sample = $("#sample").value;
+  var check = $("#checker").val();
+  var sample = $("#sample").val();
   alert(check);
   alert(sample);
   if(check === sample)
