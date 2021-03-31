@@ -2,14 +2,12 @@
 $(".btn").on('click',function(){
   var check = $("#checker").val();
   var sample = $("#sample").val();
-  alert(check);
-  alert(sample);
   if(check === sample)
   {
-    $("#result").innerText = "The same";
+    $("#result").text("The same");
   }
   else
   {
-    $("#result").innerText = "Different";
+    $("#result").text("Different");
   }
 })
