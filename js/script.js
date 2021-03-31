@@ -1,14 +1,15 @@
 
 $(".btn").on('click',function(){
-  alert("comparing");
   var check = $("#checker").value;
   var sample = $("#sample").value;
+  alert(check);
+  alert(sample);
   if(check === sample)
   {
-    $("#result").append("The same");
+    $("#result").innerText = "The same";
   }
   else
   {
-    $("#result").append("Different");
+    $("#result").innerText = "Different";
   }
 })
